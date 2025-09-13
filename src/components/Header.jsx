@@ -29,15 +29,15 @@ const Header = () => {
           {/* Light Mode Profile */}
           <img
             src={profileLight}
-            alt="Profile Light"
+            alt="ProfilePic"
             className="block dark:hidden w-14 h-14 rounded-full object-cover border-2 border-gray-300 cursor-pointer"
           />
 
           {/* Dark Mode Profile */}
           <img
             src={profileDark}
-            alt="Profile Dark"
-            className="hidden dark:block w-14 h-14 rounded-full object-cover border-2 border-gray-600 cursor-pointer"
+            alt="ProfilePic"
+            className="hidden dark:block w-14 h-14 rounded-full object-cover border-2 border-gray-300 cursor-pointer"
           />
 
           <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
