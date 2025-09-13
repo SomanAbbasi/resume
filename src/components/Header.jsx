@@ -3,7 +3,7 @@ import profileLight from "../assets/profile-light.jpeg";
 import profileDark from "../assets/profile-dark.jpeg";
 const navItems = ["home", "skills", "projects", "about", "experience", "contact"];
 
-const Header = () => {
+const Header = ({setActiveSelection}) => {
   // Initialize dark mode from localStorage
   const [darkMode, setDarkMode] = useState(
     () => localStorage.getItem("theme") === "dark"
@@ -45,16 +45,17 @@ const Header = () => {
           </h1>
         </div>
 
+
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6">
           {navItems.map((item) => (
-            <a
+            <button
               key={item}
-              href={`#${item}`}
+              onClick={()=>setActiveSelection(item)}
               className="capitalize text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
             >
               {item}
-            </a>
+            </button>
           ))}
         </nav>
 
