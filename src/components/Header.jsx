@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-
+import profileLight from "../assets/profile-light.jpeg";
+import profileDark from "../assets/profile-dark.jpeg";
 const navItems = ["home", "skills", "projects", "about", "experience", "contact"];
 
 const Header = () => {
@@ -24,9 +25,25 @@ const Header = () => {
     <header className="bg-white dark:bg-gray-900 shadow-md fixed top-0 left-0 w-full z-50 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo / Name */}
-        <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
-          Soman Abbasi
-        </h1>
+         <div className="flex items-center space-x-3">
+          {/* Light Mode Profile */}
+          <img
+            src={profileLight}
+            alt="Profile Light"
+            className="block dark:hidden w-14 h-14 rounded-full object-cover border-2 border-gray-300 cursor-pointer"
+          />
+
+          {/* Dark Mode Profile */}
+          <img
+            src={profileDark}
+            alt="Profile Dark"
+            className="hidden dark:block w-14 h-14 rounded-full object-cover border-2 border-gray-600 cursor-pointer"
+          />
+
+          <h1 className="text-2xl font-bold text-gray-800 dark:text-white">
+            Soman Abbasi
+          </h1>
+        </div>
 
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6">
@@ -40,6 +57,9 @@ const Header = () => {
             </a>
           ))}
         </nav>
+
+       
+
 
         {/* Dark Mode Toggle */}
         <button
