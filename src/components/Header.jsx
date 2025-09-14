@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import profileLight from "../assets/profile-light.jpeg";
 import profileDark from "../assets/profile-dark.jpeg";
-const navItems = ["home", "skills", "projects", "about", "experience", "contact"];
+const navItems = ["home","about" ,"skills", "projects", "experience", "contact"];
 
-const Header = ({setActiveSelection}) => {
+const Header = () => {
   // Initialize dark mode from localStorage
   const [darkMode, setDarkMode] = useState(
     () => localStorage.getItem("theme") === "dark"
@@ -49,13 +49,13 @@ const Header = ({setActiveSelection}) => {
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6">
           {navItems.map((item) => (
-            <button
+            <a
               key={item}
-              onClick={()=>setActiveSelection(item)}
+               href={`#${item}`}
               className="capitalize text-gray-700 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition"
             >
               {item}
-            </button>
+            </a>
           ))}
         </nav>
 
