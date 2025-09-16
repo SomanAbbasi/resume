@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -27,11 +28,12 @@ function App() {
         <section id="projects">
           <Projects />
         </section>
-        <section id="experience">
-          <Experience />
-        </section>
+        
         <section id="contact">
           <Contact />
+        </section>
+        <section id="footer">
+          <Footer />
         </section>
       </main>
     </div>

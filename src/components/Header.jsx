@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import profileLight from "../assets/profile-light.jpeg";
 import profileDark from "../assets/profile-dark.jpeg";
-const navItems = ["home","about" ,"skills", "projects", "experience", "contact"];
+const navItems = ["home","about" ,"skills", "projects", "contact"];
 
 const Header = () => {
   // Initialize dark mode from localStorage
