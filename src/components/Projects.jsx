@@ -23,7 +23,7 @@ const projects = [
       <SiMysql className="text-blue-600" />,
       <SiTailwindcss className="text-blue-500" />,
     ],
-    repo:" https://github.com/SomanAbbasi/React-Weather-App",
+    repo:null,
     demo: null,
   },
   {
