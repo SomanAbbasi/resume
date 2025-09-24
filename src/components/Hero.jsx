@@ -53,7 +53,7 @@ const Hero = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
       
-          href="https://www.upwork.com/"
+          href="https://www.upwork.com/freelancers/~01a6c3f988b638e99a"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition-colors duration-300"
