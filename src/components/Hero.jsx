@@ -13,7 +13,7 @@ const Hero = () => {
         viewport={{ once: false ,amount:0.3}}
         className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4"
       >
-        Senior Frontend & Full-Stack Engineer
+         Frontend & Full-Stack Engineer
       </motion.h1>
 
       {/* Subtitle */}
