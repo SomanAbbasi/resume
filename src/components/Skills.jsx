@@ -14,7 +14,7 @@ import {
 import {
   SiFlask,
   SiPostman,
-   SiVite,
+  SiVite,
 
   SiFastapi,
 
@@ -48,8 +48,6 @@ const skills = [
 
   // DevOps & Tools
   { name: "Postman", icon: <SiPostman className="text-orange-500" />, category: "DevOps & Tools" },
-  { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" />, category: "DevOps & Tools" },
-  { name: "AWS", icon: <FaAws className="text-orange-500" />, category: "DevOps & Tools" },
   { name: "Git", icon: <FaGitAlt className="text-orange-600" />, category: "DevOps & Tools" },
   { name: "Vite", icon: < SiVite className="text-purple-600" />, category: "DevOps & Tools" },
 ];

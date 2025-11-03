@@ -30,9 +30,10 @@ const Header = () => {
           <img
             src={darkMode ? profileDark : profileLight}
             alt="Profile"
-            className="w-12 h-12 rounded-full object-cover border-2 border-gray-300 dark:border-gray-600"
+            className="w-12 h-12 rounded-full object-cover border-2 border-gray-300 dark:border-gray-600
+             cursor-pointer"
           />
-          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">
+          <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white cursor-pointer">
             Soman Abbasi
           </h1>
         </div>
@@ -57,9 +58,9 @@ const Header = () => {
             aria-label="Toggle Dark Mode"
           >
             {darkMode ? (
-              <Sun size={22} strokeWidth={2} className="text-yellow-400" />
+              <Sun size={22} strokeWidth={2} className="text-yellow-400 cursor-pointer" />
             ) : (
-              <Moon size={22} strokeWidth={2} className="text-blue-400" />
+              <Moon size={22} strokeWidth={2} className="text-blue-400 cursor-pointer" />
             )}
           </button>
 
