@@ -21,10 +21,7 @@ import {
   SiTypescript,
   SiSass,
   SiTailwindcss,
-  SiDocker,
-  SiKubernetes,
-  SiWebpack,
-  SiJest,
+  SiCplusplus
 } from "react-icons/si";
 
 const skills = [
@@ -40,6 +37,8 @@ const skills = [
 
   // Backend
   { name: "Python", icon: <FaPython className="text-yellow-500" />, category: "Backend" },
+  { name: "C/C++", icon: <SiCplusplus className="text-blue-500" />, category: "Backend" },
+
   { name: "Flask", icon: <SiFlask className="text-gray-700 dark:text-gray-200" />, category: "Backend" },
   { name: "FastAPI", icon: <SiFastapi className="text-green-500" />, category: "Backend" },
   { name: "MySQL", icon: <GrMysql className="text-blue-600" />, category: "Backend" },
