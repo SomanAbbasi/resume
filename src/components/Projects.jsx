@@ -23,7 +23,7 @@ const projects = [
       <SiMysql className="text-blue-600" />,
       <SiTailwindcss className="text-blue-500" />,
     ],
-    repo:null,
+    repo:"/projects/pharmacy-management",
     demo: null,
   },
   {
@@ -72,18 +72,18 @@ const projects = [
     repo: "https://github.com/SomanAbbasi/NotesPro",
     demo: null,
   },
-  // {
-  //   title: "Bank Management System",
-  //   description:
-  //     "A Python-based desktop system to manage client accounts, deposits, withdrawals, and transactions.",
-  //   image: "/projects/bankSystem.png",
-  //   tech: [
-  //     <FaPython className="text-blue-500" />,
-  //     <FaCss3Alt className="text-purple-500" />,
-  //   ],
-  //   repo: "https://github.com/SomanAbbasi/Bank-System",
-  //   demo: null,
-  // },
+  {
+    title: "Bank Management System",
+    description:
+      "A Python-based desktop system to manage client accounts, deposits, withdrawals, and transactions.",
+    image: "/projects/bankSystem.png",
+    tech: [
+      <FaPython className="text-blue-500" />,
+      <FaCss3Alt className="text-purple-500" />,
+    ],
+    repo: "https://github.com/SomanAbbasi/Bank-System",
+    demo: null,
+  },
   {
     title: "Inventory Management System",
     description:
