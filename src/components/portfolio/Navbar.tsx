@@ -8,7 +8,6 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [logoError, setLogoError] = useState(false);
 
   const { resolvedTheme, setTheme } = useTheme();
   const isDark = resolvedTheme !== "light";
@@ -48,17 +47,7 @@ const Navbar = () => {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          {!logoError ? (
-            <img
-              src="/projects/logo2.png"
-              alt={`${personalInfo.name} logo`}
-              className="h-7 w-auto"
-              loading="eager"
-              onError={() => setLogoError(true)}
-            />
-          ) : (
-            <span className="text-xl font-bold gradient-text">{initials}</span>
-          )}
+          <span className="text-xl font-bold gradient-text">{initials}</span>
         </a>
 
         <div className="flex items-center gap-2">
