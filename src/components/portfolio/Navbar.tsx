@@ -50,7 +50,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-3">
           {!logoError ? (
             <img
-              src="/logo2.png"
+              src="/projects/logo2.png"
               alt={`${personalInfo.name} logo`}
               className="h-7 w-auto"
               loading="eager"
