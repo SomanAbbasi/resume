@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, Moon, Sun, X } from "lucide-react";
 import { useTheme } from "next-themes";
+import { Link, useLocation } from "react-router-dom";
 import { navLinks, personalInfo } from "@/lib/data";
 
 const Navbar = () => {
@@ -11,6 +12,7 @@ const Navbar = () => {
 
   const { resolvedTheme, setTheme } = useTheme();
   const isDark = resolvedTheme !== "light";
+  const location = useLocation();
 
   const initials = personalInfo.name
     .split(" ")
@@ -23,18 +25,15 @@ const Navbar = () => {
   useEffect(() => {
     const onScroll = () => {
       setScrolled(window.scrollY > 50);
-      const sections = navLinks.map((l) => l.href.slice(1));
-      for (const id of [...sections].reverse()) {
-        const el = document.getElementById(id);
-        if (el && el.getBoundingClientRect().top < 200) {
-          setActive(`#${id}`);
-          break;
-        }
-      }
     };
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
+  useEffect(() => {
+    setActive(location.pathname || "/");
+    setMobileOpen(false);
+  }, [location.pathname]);
 
   return (
     <motion.nav
@@ -46,17 +45,17 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        <a href="#" className="flex items-center gap-3">
+        <Link to="/" className="flex items-center gap-3">
           <span className="text-xl font-bold gradient-text">{initials}</span>
-        </a>
+        </Link>
 
         <div className="flex items-center gap-2">
           {/* Desktop nav */}
           <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
-              <a
+              <Link
                 key={link.href}
-                href={link.href}
+                to={link.href}
                 className={`text-sm font-medium transition-colors duration-200 ${
                   active === link.href
                     ? "text-foreground"
@@ -71,7 +70,7 @@ const Navbar = () => {
                     style={{ background: "var(--gradient-primary)" }}
                   />
                 )}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -108,14 +107,13 @@ const Navbar = () => {
           >
             <div className="flex flex-col gap-1 p-4">
               {navLinks.map((link) => (
-                <a
+                <Link
                   key={link.href}
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
+                  to={link.href}
                   className="text-sm font-medium py-2 px-3 rounded-md text-muted-foreground hover:text-foreground hover:bg-secondary transition-colors"
                 >
                   {link.label}
-                </a>
+                </Link>
               ))}
             </div>
           </motion.div>

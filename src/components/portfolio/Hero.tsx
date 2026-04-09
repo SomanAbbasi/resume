@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, FileText, Github, Linkedin } from "lucide-react";
 import { useTheme } from "next-themes";
 import { SiFiverr, SiUpwork } from "react-icons/si";
+import { Link } from "react-router-dom";
 import { personalInfo } from "@/lib/data";
 
 const Hero = () => {
@@ -75,14 +76,14 @@ const Hero = () => {
               transition={{ duration: 0.6, delay: 0.4 }}
               className="flex flex-wrap gap-4"
             >
-              <a
-                href="#projects"
+              <Link
+                to="/projects"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-medium text-primary-foreground transition-all duration-300 glow-hover"
                 style={{ background: "var(--gradient-primary)" }}
               >
                 View Projects
                 <ArrowDown size={16} />
-              </a>
+              </Link>
               <a
                 href={personalInfo.resumeUrl}
                 download
