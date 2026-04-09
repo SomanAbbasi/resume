@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Github, Linkedin, Trophy, Code } from "lucide-react";
-import { SiFiverr, SiUpwork } from "react-icons/si";
+import { Mail, Github, Linkedin } from "lucide-react";
+import { SiFiverr, SiUpwork, SiLeetcode, SiCodeforces } from "react-icons/si";
 import { personalInfo } from "@/lib/data";
 
 const Contact = () => {
@@ -12,8 +12,8 @@ const Contact = () => {
     { icon: Mail, href: `mailto:${personalInfo.email}`, label: "Email" },
     { icon: Github, href: personalInfo.github, label: "GitHub" },
     { icon: Linkedin, href: personalInfo.linkedin, label: "LinkedIn" },
-    { icon: Trophy, href: personalInfo.codeforces, label: "Codeforces" },
-    { icon: Code, href: personalInfo.leetcode, label: "LeetCode" },
+    { icon: SiCodeforces, href: personalInfo.codeforces, label: "Codeforces" },
+    { icon: SiLeetcode, href: personalInfo.leetcode, label: "LeetCode" },
   ];
 
   return (
