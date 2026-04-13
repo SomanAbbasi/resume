@@ -39,8 +39,9 @@ export const personalInfo = {
   tagline:
     "Building performant, accessible, and modern web and desktop applications.",
   summary:
-    "I’m Soman Abbasi, a passionate Frontend & Full-Stack Engineer with a focus on building performant, accessible, and modern web and desktop applications. I work with tools like React and Python to create smooth experiences, and I’m always exploring new areas like AI to push my skills further.",
+    "I’m Soman Abbasi, a freelance Frontend & Full-Stack Developer focused on building fast, modern, and responsive websites that help businesses grow online. I create clean, user-friendly web experiences that are optimized for performance, mobile devices, and SEO. Whether it’s a personal portfolio, business website, or full web application, I turn ideas into functional and professional digital products",
   email: "mssabbasi306@gmail.com",
+  secondaryEmail: "contact@somanabbasi.tech",
   github: "https://github.com/SomanAbbasi",
   linkedin: "https://www.linkedin.com/in/soman-abbasi-a1820b344/",
   fiverr: "https://www.fiverr.com/users/somanabbasi/portfolio",
@@ -136,6 +137,7 @@ export const experiences: Experience[] = [
     points: [
       "Delivered MERN / Next.js web applications for small clients, including food ordering and hospital websites",
       "Collaborated directly with clients to gather requirements, iterate on designs, and deliver high-quality solutions",
+      "Collaborated on a real-world music streaming application (Tswangi Music App), implementing API integration and building the frontend interface connected to backend services",
     ],
     type: "work",
   },
@@ -173,9 +175,9 @@ export const achievements: Achievement[] = [
 ];
 
 export const navLinks = [
-  { label: "About", href: "/about" },
-  { label: "Skills", href: "/skills" },
-  { label: "Projects", href: "/projects" },
-  { label: "Experience", href: "/experience" },
-  { label: "Contact", href: "/contact" },
+  { label: "About", href: "/#about" },
+  { label: "Skills", href: "/#skills" },
+  { label: "Projects", href: "/#projects" },
+  { label: "Experience", href: "/#experience" },
+  { label: "Contact", href: "/#contact" },
 ];

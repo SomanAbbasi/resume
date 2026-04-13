@@ -31,9 +31,10 @@ const Navbar = () => {
   }, []);
 
   useEffect(() => {
-    setActive(location.pathname || "/");
+    const current = `${location.pathname}${location.hash}`;
+    setActive(current === "/" ? "/" : current);
     setMobileOpen(false);
-  }, [location.pathname]);
+  }, [location.pathname, location.hash]);
 
   return (
     <motion.nav

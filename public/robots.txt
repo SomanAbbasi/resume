@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://somanabbasi.vercel.app/sitemap.xml
+Sitemap: https://somanabbasi.tech/sitemap.xml

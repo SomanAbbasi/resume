@@ -12,6 +12,8 @@ export const metadata: Metadata = {
     "Authority page for Soman Abbasi (Muhammad Soman Shabbir Abbasi) — Software Engineer and Competitive Programmer from Pakistan (PUCIT). Technical skills: React, Next.js, TypeScript, Tailwind CSS, full-stack development, and Algorithms & Data Structures.",
 };
 
+const SITE_URL = "https://somanabbasi.tech";
+
 const PERSON = {
   fullName: "Muhammad Soman Shabbir Abbasi",
   primaryName: "Soman Abbasi",
@@ -42,6 +44,8 @@ function buildPersonJsonLd() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: PERSON.fullName,
+    url: `${SITE_URL}/soman-abbasi`,
+    email: "contact@somanabbasi.tech",
     alternateName: PERSON.alternateNames,
     jobTitle: PERSON.role,
     alumniOf: {
@@ -55,6 +59,12 @@ function buildPersonJsonLd() {
       "@type": "PostalAddress",
       addressCountry: PERSON.location,
     },
+    sameAs: [
+      "https://github.com/SomanAbbasi",
+      "https://www.linkedin.com/in/soman-abbasi-a1820b344/",
+      "https://codeforces.com/profile/Soman_Abbasi",
+      "https://leetcode.com/u/SomanAbbasi/",
+    ],
   };
 }
 
@@ -66,6 +76,7 @@ export default function SomanAbbasiAuthorityPage() {
       <Helmet>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <link rel="canonical" href={`${SITE_URL}/soman-abbasi`} />
 
         <meta
           name="robots"
@@ -75,6 +86,7 @@ export default function SomanAbbasiAuthorityPage() {
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
         <meta property="og:type" content="article" />
+        <meta property="og:url" content={`${SITE_URL}/soman-abbasi`} />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={metadata.title} />

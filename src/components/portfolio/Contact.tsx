@@ -1,19 +1,20 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Github, Linkedin, Trophy, Code } from "lucide-react";
-import { SiFiverr, SiUpwork } from "react-icons/si";
+import { Mail, Github, Linkedin } from "lucide-react";
+import { SiCodeforces, SiFiverr, SiLeetcode, SiUpwork } from "react-icons/si";
 import { personalInfo } from "@/lib/data";
 
 const Contact = () => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true, margin: "-100px" });
+  const primaryEmail = personalInfo.secondaryEmail;
+  const secondaryEmail = personalInfo.email;
 
   const socials = [
-    { icon: Mail, href: `mailto:${personalInfo.email}`, label: "Email" },
     { icon: Github, href: personalInfo.github, label: "GitHub" },
     { icon: Linkedin, href: personalInfo.linkedin, label: "LinkedIn" },
-    { icon: Trophy, href: personalInfo.codeforces, label: "Codeforces" },
-    { icon: Code, href: personalInfo.leetcode, label: "LeetCode" },
+    { icon: SiCodeforces, href: personalInfo.codeforces, label: "Codeforces" },
+    { icon: SiLeetcode, href: personalInfo.leetcode, label: "LeetCode" },
   ];
 
   return (
@@ -30,11 +31,23 @@ const Contact = () => {
           I'm always open to interesting conversations and opportunities.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 mb-10 text-sm text-muted-foreground">
-          <span className="inline-flex items-center gap-2">
+        <div className="flex flex-col items-center justify-center gap-3 mb-10 text-sm">
+          <a
+            href={`mailto:${primaryEmail}`}
+            className="glass-card inline-flex items-center gap-2 px-4 py-2 rounded-xl text-foreground hover:bg-secondary transition-all duration-300"
+            aria-label="Send email to contact@somanabbasi.tech"
+          >
             <Mail size={16} className="text-primary" />
-            {personalInfo.email}
-          </span>
+            {primaryEmail}
+          </a>
+          <a
+            href={`mailto:${secondaryEmail}`}
+            className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground transition-colors"
+            aria-label="Send email to alternate address"
+          >
+            <Mail size={16} className="text-primary" />
+            {secondaryEmail}
+          </a>
         </div>
 
         <div className="flex justify-center flex-wrap gap-4 mb-12">
@@ -53,7 +66,7 @@ const Contact = () => {
         </div>
 
         <a
-          href={`mailto:${personalInfo.email}`}
+          href={`mailto:${primaryEmail}`}
           className="inline-flex items-center gap-2 px-8 py-3 rounded-xl font-medium text-primary-foreground transition-all duration-300 glow-hover"
           style={{ background: "var(--gradient-primary)" }}
         >
