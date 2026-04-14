@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, FileText, Github, Linkedin } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import { useTheme } from "next-themes";
 import { SiFiverr, SiUpwork } from "react-icons/si";
 import { Link } from "react-router-dom";
@@ -8,6 +9,19 @@ import { personalInfo } from "@/lib/data";
 const Hero = () => {
   const { resolvedTheme } = useTheme();
   const profileSrc = resolvedTheme === "light" ? "/profile-light.jpeg" : "/profile-dark.jpeg";
+  const [imageLoadFailed, setImageLoadFailed] = useState(false);
+  useEffect(() => {
+    setImageLoadFailed(false);
+  }, [profileSrc]);
+
+  const initials = useMemo(() => {
+    return personalInfo.name
+      .split(" ")
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0]?.toUpperCase() ?? "")
+      .join("");
+  }, []);
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden">
@@ -170,12 +184,27 @@ const Hero = () => {
               >
                 <div className="p-1 rounded-full bg-background">
                   <div className="relative h-56 w-56 sm:h-64 sm:w-64 lg:h-72 lg:w-72 xl:h-80 xl:w-80 overflow-hidden rounded-full border border-border">
-                    <img
-                      src={profileSrc}
-                      alt={`${personalInfo.name} profile photo`}
-                      className="h-full w-full object-cover"
-                      loading="eager"
-                    />
+                    {!imageLoadFailed ? (
+                      <img
+                        src={profileSrc}
+                        alt={`${personalInfo.name} profile photo`}
+                        className="h-full w-full object-cover object-[50%_28%]"
+                        loading="eager"
+                        onError={() => setImageLoadFailed(true)}
+                      />
+                    ) : (
+                      <div className="h-full w-full bg-muted/60 flex flex-col items-center justify-center text-center px-6">
+                        <div
+                          className="w-24 h-24 rounded-full flex items-center justify-center text-3xl font-bold text-primary-foreground"
+                          style={{ background: "var(--gradient-primary)" }}
+                          aria-hidden
+                        >
+                          {initials || "SA"}
+                        </div>
+                        <p className="mt-4 text-base font-semibold text-foreground">{personalInfo.name}</p>
+                        <p className="text-sm text-muted-foreground">{personalInfo.title}</p>
+                      </div>
+                    )}
                   </div>
                 </div>
               </div>
