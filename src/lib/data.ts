@@ -80,23 +80,23 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/SomanAbbasi/Ruhan-Medical-Complex-Khanpur-",
     liveUrl: "https://ruhanmedicalcomplex.com/",
   },
-  {
-    id: "4",
-    title: "Weather Monitoring Application",
-    description:
-      "Full-stack weather monitoring dashboard with real-time data fetching and interactive charts.",
-    image: "/projects/weatherApp.png",
-    imageFit: "contain",
-    techStack: ["Python", "Flask", "React"],
-    githubUrl: "https://github.com/SomanAbbasi/React-Weather-App",
-    liveUrl: "https://www.linkedin.com/posts/soman-abbasi-a1820b344_react-flask-webdevelopment-activity-7362436442490302464-GCEw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFYsJ_QBqqXdUJ0xpJqpqJ2F6z-_oo66ahY",
-  },
+  // {
+  //   id: "4",
+  //   title: "Weather Monitoring Application",
+  //   description:
+  //     "Full-stack weather monitoring dashboard with real-time data fetching and interactive charts.",
+  //   image: "/projects/weatherApp.png",
+  //   imageFit: "contain",
+  //   techStack: ["Python", "Flask", "React"],
+  //   githubUrl: "https://github.com/SomanAbbasi/React-Weather-App",
+  //   liveUrl: "https://www.linkedin.com/posts/soman-abbasi-a1820b344_react-flask-webdevelopment-activity-7362436442490302464-GCEw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFYsJ_QBqqXdUJ0xpJqpqJ2F6z-_oo66ahY",
+  // },
    {
-    id: "5",
+    id: "4",
     title: "Code Optimizer",
     description:
       "AI-powered tool that analyzes your code, detects inefficiencies, and returns an optimized version instantly.",
-    image: "/projects/weatherApp.png",
+    image: "/projects/codeEnhancer.png",
     imageFit: "contain",
     techStack: ["Python", "Flask", "NextJs"],
     githubUrl: "https://github.com/SomanAbbasi?tab=repositories",
@@ -143,7 +143,7 @@ export const experiences: Experience[] = [
     id: "2",
     title: "Full-Stack Freelance Developer",
     organization: "Freelance",
-    duration: "2026 – Present",
+    duration: "2026 - Present",
     location: "Remote",
     points: [
       "Delivered MERN / Next.js web applications for small clients, including food ordering and hospital websites",
