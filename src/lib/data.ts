@@ -91,6 +91,17 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/SomanAbbasi/React-Weather-App",
     liveUrl: "https://www.linkedin.com/posts/soman-abbasi-a1820b344_react-flask-webdevelopment-activity-7362436442490302464-GCEw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFYsJ_QBqqXdUJ0xpJqpqJ2F6z-_oo66ahY",
   },
+   {
+    id: "5",
+    title: "Code Optimizer",
+    description:
+      "AI-powered tool that analyzes your code, detects inefficiencies, and returns an optimized version instantly.",
+    image: "/projects/weatherApp.png",
+    imageFit: "contain",
+    techStack: ["Python", "Flask", "NextJs"],
+    githubUrl: "https://github.com/SomanAbbasi?tab=repositories",
+    liveUrl: "https://codeenhancer.vercel.app/",
+  },
 ];
 
 export const skillCategories: SkillCategory[] = [
