@@ -1,8 +1,8 @@
 A modern, responsive, and performance-optimized developer portfolio built with **Next.js**, showcasing my projects, skills, and experience as a Full-Stack Developer.
 
 🌐 Live Site:
-https://www.somanabbasi.tech/
-https://somanabbasi.vercel.app/
+- https://www.somanabbasi.tech/
+- https://somanabbasi.vercel.app/
 
 ---
 
