@@ -115,11 +115,11 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     name: "Backend",
-    skills: ["Node.js", "Express.js", "Flask", "FastAPI", "ASP.NET Core (.NET)"],
+    skills: ["Node.js", "Express.js", "Flask", "FastAPI"],
   },
   {
     name: "Databases",
-    skills: ["MySQL", "Oracle", "MongoDB", "Convex Database"],
+    skills: ["MySQL", "Oracle", "MongoDB", "Convex Database","Supabase"],
   },
   {
     name: "Tools",
