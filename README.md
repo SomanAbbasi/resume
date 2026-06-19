@@ -1,8 +1,8 @@
-# Personal Developer Portfolio
-
 A modern, responsive, and performance-optimized developer portfolio built with **Next.js**, showcasing my projects, skills, and experience as a Full-Stack Developer.
 
-🌐 Live Site: https://somanabbasi.vercel.app/
+🌐 Live Site:
+- https://www.somanabbasi.tech/
+- https://somanabbasi.vercel.app/
 
 ---
 
@@ -30,4 +30,3 @@ A modern, responsive, and performance-optimized developer portfolio built with *
 
 ---
 
-## 📂 Project Structure
