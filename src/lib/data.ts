@@ -80,19 +80,19 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/SomanAbbasi/Ruhan-Medical-Complex-Khanpur-",
     liveUrl: "https://ruhanmedicalcomplex.com/",
   },
-  // {
-  //   id: "4",
-  //   title: "Weather Monitoring Application",
-  //   description:
-  //     "Full-stack weather monitoring dashboard with real-time data fetching and interactive charts.",
-  //   image: "/projects/weatherApp.png",
-  //   imageFit: "contain",
-  //   techStack: ["Python", "Flask", "React"],
-  //   githubUrl: "https://github.com/SomanAbbasi/React-Weather-App",
-  //   liveUrl: "https://www.linkedin.com/posts/soman-abbasi-a1820b344_react-flask-webdevelopment-activity-7362436442490302464-GCEw?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFYsJ_QBqqXdUJ0xpJqpqJ2F6z-_oo66ahY",
-  // },
-   {
+  {
     id: "4",
+    title: "Agentic RAG System Chatbot",
+    description:
+      "A production-ready multi-agent AI system using LangChain, Groq, RAG, and ReAct architecture with web search, validation loops, and Streamlit UI for self-correcting intelligent responses.",
+    image: "/projects/agentic_rag_system.png",
+    imageFit: "contain",
+    techStack: ["Python", "LangChain", "LangGraph", "Groq", "Streamlit"],
+    githubUrl: "https://github.com/SomanAbbasi/Agentic-RAG-System-Chatbot-",
+
+  },
+   {
+    id: "5",
     title: "Code Optimizer",
     description:
       "AI-powered tool that analyzes your code, detects inefficiencies, and returns an optimized version instantly.",
@@ -111,19 +111,44 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     name: "Frontend",
-    skills: ["React", "Next.js", "HTML5", "CSS3", "SASS", "Tailwind CSS", "Electron"],
+    skills: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "SASS"],
   },
   {
     name: "Backend",
-    skills: ["Node.js", "Express.js", "Flask", "FastAPI"],
+    skills: ["Node.js", "Express.js", "Flask", "FastAPI", "REST APIs"],
+  },
+  {
+    name: "AI / ML",
+    skills: [
+      "LangChain",
+      "LangGraph",
+      "OpenAI API",
+      "Gemini API",
+      "Groq",
+      "Hugging Face",
+      "RAG Systems",
+      "AI Agents",
+      "Prompt Engineering",
+    ],
   },
   {
     name: "Databases",
-    skills: ["MySQL", "Oracle", "MongoDB", "Convex Database","Supabase"],
+    skills: [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Convex",
+      "Supabase",
+      "Vector Databases (FAISS, ChromaDB, Pinecone)",
+    ],
   },
   {
-    name: "Tools",
-    skills: ["Git", "Figma", "Redis", "GraphQL", "Linux"],
+    name: "DevOps / Tools",
+    skills: ["Git", "GitHub", "Docker", "Linux", "Postman"],
+  },
+  {
+    name: "Other",
+    skills: ["GraphQL", "Redis", "Figma"],
   },
 ];
 
@@ -132,7 +157,7 @@ export const experiences: Experience[] = [
     id: "1",
     title: "Bachelor of Science in Computer Science | CGPA: 3.78",
     organization: "PUCIT, University of the Punjab",
-    duration: "2024 – 2028",
+    duration: "2024 - 2028",
     location: "Lahore, Pakistan",
     points: [
       "Focused on core CS fundamentals including data structures, algorithms, and database systems",
