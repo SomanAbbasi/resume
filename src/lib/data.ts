@@ -153,9 +153,38 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const experiences: Experience[] = [
+
   {
     id: "1",
-    title: "Bachelor of Science in Computer Science | CGPA: 3.78",
+    title: "Full-Stack Developer Intern (AI Integrations)",
+    organization: "SKAFS International (Pvt) Ltd",
+    duration: "Jan 2026 - Present",
+    location: "Lahore, Pakistan",
+    points: [
+      "Engineered full-stack applications with AI-powered workflows, integrating LLM chatbots, RAG pipelines, and multi-agent orchestration systems into production environments",
+      "Developed and deployed end-to-end AI agent systems using LangChain and LangGraph with memory, tool execution, and validation layers",
+      "Integrated backend APIs and optimized system reliability, scalability, and AI response quality across application workflows",
+    ],
+    type: "work",
+  },
+
+  {
+    id: "2",
+    title: "Full-Stack Freelance Developer",
+    organization: "Freelance",
+    duration: "2026 - Present",
+    location: "Remote",
+    points: [
+      "Delivered MERN / Next.js web applications for clients, including food ordering and hospital management platforms",
+      "Collaborated directly with clients to gather requirements, iterate on designs, and deliver production-ready solutions",
+      "Contributed to a real-world music streaming application (Tswangi Music App), implementing API integrations and building frontend interfaces connected to backend services",
+    ],
+    type: "work",
+  },
+
+  {
+    id: "3",
+    title: "Bachelor of Science in Computer Science | CGPA: 3.76",
     organization: "PUCIT, University of the Punjab",
     duration: "2024 - 2028",
     location: "Lahore, Pakistan",
@@ -164,20 +193,14 @@ export const experiences: Experience[] = [
     ],
     type: "education",
   },
-  {
-    id: "2",
-    title: "Full-Stack Freelance Developer",
-    organization: "Freelance",
-    duration: "2026 - Present",
-    location: "Remote",
-    points: [
-      "Delivered MERN / Next.js web applications for small clients, including food ordering and hospital websites",
-      "Collaborated directly with clients to gather requirements, iterate on designs, and deliver high-quality solutions",
-      "Collaborated on a real-world music streaming application (Tswangi Music App), implementing API integration and building the frontend interface connected to backend services",
-    ],
-    type: "work",
-  },
+
+  
+
+  
 ];
+  
+
+ 
 
 export const achievements: Achievement[] = [
   {
