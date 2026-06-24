@@ -59,7 +59,7 @@ export const projects: Project[] = [
       "Production-ready food ordering platform with authentication, cart management, order tracking, and an admin panel with full CRUD.",
     image: "/projects/quickbites.png",
     techStack: ["MongoDB", "Express.js", "React", "Node.js"],
-    liveUrl: "https://quickbites-ymjz.onrender.com/",
+    liveUrl: "https://quickbites-flame.vercel.app/",
   },
   {
     id: "2",
