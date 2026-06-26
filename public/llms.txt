@@ -14,7 +14,7 @@
 
 ## About
 
-Soman Abbasi builds scalable web applications and intelligent software systems across frontend, backend, APIs, and AI integrations. He works on modern web development, automation workflows, LangChain/LangGraph agent systems, RAG pipelines, and production full-stack applications.
+I'm Soman Abbasi (Muhammad Soman Shabbir Abbasi), a Full-Stack Engineer & AI Integrator from PUCIT. I build scalable web applications, APIs, and intelligent systems with React, Next.js, TypeScript, LangChain, LangGraph, and AI agents.
 
 ## Core Skills
 

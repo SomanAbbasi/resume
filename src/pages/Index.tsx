@@ -6,6 +6,7 @@ import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import Timeline from "@/components/portfolio/Timeline";
 import Achievements from "@/components/portfolio/Achievements";
 import Contact from "@/components/portfolio/Contact";
+import SiteFooter from "@/components/portfolio/SiteFooter";
 import SEO from "@/components/SEO";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -44,6 +45,7 @@ const Index = () => {
         <Achievements />
         <Contact />
       </main>
+      <SiteFooter />
     </div>
   );
 };

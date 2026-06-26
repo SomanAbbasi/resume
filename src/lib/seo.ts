@@ -16,8 +16,7 @@ export const alternateNames = [
 export const defaultTitle =
   "Muhammad Soman Shabbir Abbasi (Soman Abbasi) | Full-Stack Engineer & AI Integrator";
 
-export const defaultDescription =
-  "Muhammad Soman Shabbir Abbasi (Soman Abbasi) — Full-Stack Engineer & AI Integrator from Pakistan (PUCIT). Official portfolio at somanabbasi.tech. React, Next.js, TypeScript, APIs, AI agents, LangChain, and full-stack development.";
+export const defaultDescription = personalInfo.metaDescription;
 
 export const profileImage = `${SITE_URL}/soman-abbasi-profile.jpeg`;
 export const profileImageAlt = `${fullName} (Soman Abbasi) — Full-Stack Engineer & AI Integrator`;
@@ -79,7 +78,7 @@ export function buildPersonJsonLd(pageUrl = SITE_URL) {
     },
     knowsAbout: [...knowsAbout],
     sameAs: [...sameAs],
-    description: personalInfo.summary,
+    description: personalInfo.metaDescription,
     worksFor: {
       "@type": "Organization",
       name: "SKAFS International (Pvt) Ltd",

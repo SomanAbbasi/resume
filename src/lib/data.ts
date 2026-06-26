@@ -41,6 +41,8 @@ export const personalInfo = {
     "Building end-to-end applications, APIs, and intelligent workflows.",
   summary:
     "I’m Soman Abbasi, a Full-Stack & AI Engineer focused on building scalable web applications and intelligent software systems. I work across frontend, backend, APIs, and AI integrations to create reliable and user-focused products. My experience includes modern web development, automation workflows, and building applications that combine performance, usability, and real-world impact.",
+  metaDescription:
+    "I’m Soman Abbasi (Muhammad Soman Shabbir Abbasi), a Full-Stack Engineer & AI Integrator from PUCIT. I build scalable web applications, APIs, and intelligent systems with React, Next.js, TypeScript, LangChain, LangGraph, and AI agents.",
   profileImageLight: "/profile-light.jpeg",
   profileImageDark: "/profile-dark.jpeg",
   profileImageSeo: "/soman-abbasi-profile.jpeg",

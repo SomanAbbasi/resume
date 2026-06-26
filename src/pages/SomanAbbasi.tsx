@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import SEO from "@/components/SEO";
+import SiteFooter from "@/components/portfolio/SiteFooter";
 import { personalInfo } from "@/lib/data";
 import {
   SITE_URL,
@@ -14,7 +15,7 @@ const authorityTitle =
   "Soman Abbasi | Muhammad Soman Shabbir Abbasi | Full-Stack Engineer & AI Integrator";
 
 const authorityDescription =
-  "Official authority page for Muhammad Soman Shabbir Abbasi (Soman Abbasi) — Full-Stack Engineer & AI Integrator from Pakistan (PUCIT). Identity, skills, projects, and verified profiles at somanabbasi.tech.";
+  "I'm Soman Abbasi (Muhammad Soman Shabbir Abbasi), a Full-Stack Engineer & AI Integrator from PUCIT. Official authority page with skills, projects, and verified profiles at somanabbasi.tech.";
 
 export default function SomanAbbasiAuthorityPage() {
   const personJsonLd = buildPersonJsonLd(`${SITE_URL}/soman-abbasi`);
@@ -287,6 +288,7 @@ export default function SomanAbbasiAuthorityPage() {
           </section>
         </article>
       </main>
+      <SiteFooter />
     </>
   );
 }
