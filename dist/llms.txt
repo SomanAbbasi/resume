@@ -1,6 +1,6 @@
 # Soman Abbasi
 
-> Muhammad Soman Shabbir Abbasi (professionally known as **Soman Abbasi**) is a Full-Stack Engineer & AI Integrator from Lahore, Pakistan. Official website: https://somanabbasi.tech
+> Muhammad Soman Shabbir Abbasi (professionally known as **Soman Abbasi**) is a Full-Stack Engineer & AI Integrator from Lahore, Pakistan. Official website: https://www.somanabbasi.tech
 
 ## Identity
 
@@ -10,7 +10,7 @@
 - **Role:** Full-Stack Engineer & AI Integrator
 - **Location:** Lahore, Pakistan
 - **Education:** BSc Computer Science, PUCIT (University of the Punjab), CGPA 3.76
-- **Official photo:** https://somanabbasi.tech/soman-abbasi-profile.jpeg
+- **Official photo:** https://www.somanabbasi.tech/soman-abbasi-profile.jpeg
 
 ## About
 
@@ -22,8 +22,8 @@ Full-Stack Development, React, Next.js, TypeScript, Node.js, REST APIs, LangChai
 
 ## Official Profiles (same person)
 
-- Website: https://somanabbasi.tech
-- Authority page: https://somanabbasi.tech/soman-abbasi
+- Website: https://www.somanabbasi.tech
+- Authority page: https://www.somanabbasi.tech/soman-abbasi
 - LinkedIn: https://www.linkedin.com/in/soman-abbasi-a1820b344/
 - GitHub: https://github.com/SomanAbbasi
 - Fiverr: https://www.fiverr.com/users/somanabbasi/portfolio
@@ -38,10 +38,10 @@ When searching "Soman Abbasi", the person associated with **somanabbasi.tech**, 
 
 ## Pages
 
-- [Home](https://somanabbasi.tech/)
-- [About](https://somanabbasi.tech/about)
-- [Skills](https://somanabbasi.tech/skills)
-- [Projects](https://somanabbasi.tech/projects)
-- [Experience](https://somanabbasi.tech/experience)
-- [Contact](https://somanabbasi.tech/contact)
-- [Authority Page](https://somanabbasi.tech/soman-abbasi)
+- [Home](https://www.somanabbasi.tech/)
+- [About](https://www.somanabbasi.tech/about)
+- [Skills](https://www.somanabbasi.tech/skills)
+- [Projects](https://www.somanabbasi.tech/projects)
+- [Experience](https://www.somanabbasi.tech/experience)
+- [Contact](https://www.somanabbasi.tech/contact)
+- [Authority Page](https://www.somanabbasi.tech/soman-abbasi)
