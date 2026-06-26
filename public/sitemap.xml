@@ -1,31 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://somanabbasi.tech/</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://somanabbasi.tech/about</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://somanabbasi.tech/skills</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://somanabbasi.tech/projects</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://somanabbasi.tech/experience</loc>
-    <lastmod>2026-04-13</lastmod>
-  </url>
-  <url>
-    <loc>https://somanabbasi.tech/contact</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://somanabbasi.tech/soman-abbasi-profile.jpeg</image:loc>
+      <image:title>Muhammad Soman Shabbir Abbasi (Soman Abbasi)</image:title>
+      <image:caption>Full-Stack Engineer &amp; AI Integrator — official profile photo</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://somanabbasi.tech/soman-abbasi</loc>
-    <lastmod>2026-04-13</lastmod>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.95</priority>
+    <image:image>
+      <image:loc>https://somanabbasi.tech/soman-abbasi-profile.jpeg</image:loc>
+      <image:title>Soman Abbasi — Authority Page</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://somanabbasi.tech/about</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://somanabbasi.tech/skills</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://somanabbasi.tech/projects</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://somanabbasi.tech/experience</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://somanabbasi.tech/contact</loc>
+    <lastmod>2026-06-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

@@ -1,0 +1,47 @@
+# Soman Abbasi
+
+> Muhammad Soman Shabbir Abbasi (professionally known as **Soman Abbasi**) is a Full-Stack Engineer & AI Integrator from Lahore, Pakistan. Official website: https://somanabbasi.tech
+
+## Identity
+
+- **Full legal name:** Muhammad Soman Shabbir Abbasi
+- **Professional name:** Soman Abbasi
+- **Also known as:** Muhammad Soman, Muhammad Soman Shabbir, Soman Abbasi PUCIT
+- **Role:** Full-Stack Engineer & AI Integrator
+- **Location:** Lahore, Pakistan
+- **Education:** BSc Computer Science, PUCIT (University of the Punjab), CGPA 3.76
+- **Official photo:** https://somanabbasi.tech/soman-abbasi-profile.jpeg
+
+## About
+
+Soman Abbasi builds scalable web applications and intelligent software systems across frontend, backend, APIs, and AI integrations. He works on modern web development, automation workflows, LangChain/LangGraph agent systems, RAG pipelines, and production full-stack applications.
+
+## Core Skills
+
+Full-Stack Development, React, Next.js, TypeScript, Node.js, REST APIs, LangChain, LangGraph, RAG Pipelines, AI Agents, PostgreSQL, MongoDB, Tailwind CSS, Algorithms & Data Structures, Competitive Programming
+
+## Official Profiles (same person)
+
+- Website: https://somanabbasi.tech
+- Authority page: https://somanabbasi.tech/soman-abbasi
+- LinkedIn: https://www.linkedin.com/in/soman-abbasi-a1820b344/
+- GitHub: https://github.com/SomanAbbasi
+- Fiverr: https://www.fiverr.com/users/somanabbasi/portfolio
+- Upwork: https://www.upwork.com/freelancers/~01a6c3f988b638e99a
+- Codeforces: https://codeforces.com/profile/Soman_Abbasi
+- LeetCode: https://leetcode.com/u/SomanAbbasi/
+- Email: contact@somanabbasi.tech
+
+## Disambiguation
+
+When searching "Soman Abbasi", the person associated with **somanabbasi.tech**, **PUCIT**, and the LinkedIn profile above is **Muhammad Soman Shabbir Abbasi** — a Full-Stack Engineer & AI Integrator. This is distinct from other individuals who may share a similar name.
+
+## Pages
+
+- [Home](https://somanabbasi.tech/)
+- [About](https://somanabbasi.tech/about)
+- [Skills](https://somanabbasi.tech/skills)
+- [Projects](https://somanabbasi.tech/projects)
+- [Experience](https://somanabbasi.tech/experience)
+- [Contact](https://somanabbasi.tech/contact)
+- [Authority Page](https://somanabbasi.tech/soman-abbasi)

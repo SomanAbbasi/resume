@@ -5,10 +5,14 @@ import { useTheme } from "next-themes";
 import { SiFiverr, SiUpwork } from "react-icons/si";
 import { Link } from "react-router-dom";
 import { personalInfo } from "@/lib/data";
+import { profileImageAlt } from "@/lib/seo";
 
 const Hero = () => {
   const { resolvedTheme } = useTheme();
-  const profileSrc = resolvedTheme === "light" ? "/profile-light.jpeg" : "/profile-dark.jpeg";
+  const profileSrc =
+    resolvedTheme === "light"
+      ? personalInfo.profileImageLight
+      : personalInfo.profileImageDark;
   const [imageLoadFailed, setImageLoadFailed] = useState(false);
   useEffect(() => {
     setImageLoadFailed(false);
@@ -187,7 +191,7 @@ const Hero = () => {
                     {!imageLoadFailed ? (
                       <img
                         src={profileSrc}
-                        alt={`${personalInfo.name} profile photo`}
+                        alt={profileImageAlt}
                         className="h-full w-full object-cover object-[50%_28%]"
                         loading="eager"
                         onError={() => setImageLoadFailed(true)}

@@ -35,12 +35,16 @@ export interface Achievement {
 
 export const personalInfo = {
   name: "Soman Abbasi",
-  title: "Frontend & Full-Stack Engineer",
+  fullName: "Muhammad Soman Shabbir Abbasi",
+  title: "Full-Stack Engineer & AI Integrator",
   tagline:
-    "Building performant, accessible, and modern web and desktop applications.",
+    "Building end-to-end applications, APIs, and intelligent workflows.",
   summary:
-    "I’m Soman Abbasi, a freelance Frontend & Full-Stack Developer focused on building fast, modern, and responsive websites that help businesses grow online. I create clean, user-friendly web experiences that are optimized for performance, mobile devices, and SEO. Whether it’s a personal portfolio, business website, or full web application, I turn ideas into functional and professional digital products",
-  email: "mssabbasi306@gmail.com",
+    "I’m Soman Abbasi, a Full-Stack & AI Engineer focused on building scalable web applications and intelligent software systems. I work across frontend, backend, APIs, and AI integrations to create reliable and user-focused products. My experience includes modern web development, automation workflows, and building applications that combine performance, usability, and real-world impact.",
+  profileImageLight: "/profile-light.jpeg",
+  profileImageDark: "/profile-dark.jpeg",
+  profileImageSeo: "/soman-abbasi-profile.jpeg",
+  email: "contact.somanabbasi@gmail.com",
   secondaryEmail: "contact@somanabbasi.tech",
   github: "https://github.com/SomanAbbasi",
   linkedin: "https://www.linkedin.com/in/soman-abbasi-a1820b344/",

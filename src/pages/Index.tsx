@@ -6,8 +6,10 @@ import ProjectsSection from "@/components/portfolio/ProjectsSection";
 import Timeline from "@/components/portfolio/Timeline";
 import Achievements from "@/components/portfolio/Achievements";
 import Contact from "@/components/portfolio/Contact";
+import SEO from "@/components/SEO";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import { buildPersonJsonLd, buildWebSiteJsonLd } from "@/lib/seo";
 
 const Index = () => {
   const location = useLocation();
@@ -31,6 +33,7 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO jsonLd={[buildPersonJsonLd(), buildWebSiteJsonLd()]} />
       <Navbar />
       <main>
         <Hero />
