@@ -1,6 +1,6 @@
 import { personalInfo } from "@/lib/data";
 
-export const SITE_URL = "https://somanabbasi.tech";
+export const SITE_URL = "https://www.somanabbasi.tech";
 export const SITE_NAME = "Soman Abbasi Portfolio";
 
 export const fullName = "Muhammad Soman Shabbir Abbasi";
